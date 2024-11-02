@@ -62,6 +62,7 @@ const Page = () => {
                 <Button
                   key={`${item.name}-${index}`}
                   onClick={() => onClickToCategory(item)}
+                  style={{ backgroundColor: "blue", color: "white" }}
                 >
                   {item.name}
                 </Button>
